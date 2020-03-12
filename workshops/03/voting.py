@@ -21,7 +21,7 @@ elif c > total/2:
 
 # 2. find the biggest two candidates
 # if mostVotes > thirdVotes AND secondVotes > thirdVotes:
-elif thirdVotes < secondVotes:
+elif thirdVotes == True:
     print("Next round: ", mostVotes,"and", secondVotes)
 
 # 3. if there is a tie: print everyone
