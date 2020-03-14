@@ -6,8 +6,7 @@ for i in range(rows):
     spaces = rows - i - 1
     for j in range(spaces):
         print(" ", end = "")
-    for j in range(hashes):
-        print("#", end = "")
-    print() #new line
+    print("#" * hashes)
+
     hashes += 2
     #variable how many hashes to print, and change every time
